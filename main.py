@@ -162,7 +162,7 @@ async def unknown_text(update: Update, context: ContextTypes.DEFAULT_TYPE):
     )
 
 # Main application
-app = ApplicationBuilder().token("7923917813:AAH_Lop-J2h75JGlAEVqEOUnL1-lsHaaqfI").build()
+app = ApplicationBuilder().token("<YOUR-BOTFATHER-API-KEY").build()
 
 # Command Handlers
 app.add_handler(CommandHandler("start", start))
